@@ -7,7 +7,7 @@
 
   <!-- Tech Stack -->
 
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Technology-Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
   <img src="https://img.shields.io/badge/DAX-0F6CBD?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -19,10 +19,10 @@
   <!-- Analytics Performed -->
 
   <img src="https://img.shields.io/badge/Analytics-Athlete_Analysis-7B61FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Analytics-Medal_Intelligence-5B5EA6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Analytics-Country_Performance-FF8C00?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Analytics-Historical_Trend_Analysis-00A86B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Analytics-Gender_Insights-008080?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Medal_Intelligence-5B5EA6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Country_Performance-FF8C00?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Historical_Trend_Analysis-00A86B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Gender_Insights-008080?style=for-the-badge"/>
 
   <br>
 
