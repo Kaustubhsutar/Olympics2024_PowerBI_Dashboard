@@ -255,14 +255,15 @@ The project includes advanced analytics across multiple dimensions.
 ## 📈 Dashboard Pages
 
 
-### Home Page
+## Home Page
 
 Interactive Olympic-themed landing page with dashboard navigation.
 
 <img src="Docs/Images/Home Page.png" width="100%"/>
 
+---
 
-### 📊 Overview Dashboard
+## 📊 Overview Dashboard
 
 Provides executive-level Olympic highlights and medal intelligence.
 
@@ -275,15 +276,17 @@ Provides executive-level Olympic highlights and medal intelligence.
 
 <img src="Docs/Images/Overview Page.png" width="100%"/>
 
+---
 
-### 🎛 Dynamic Filter Experience
+## 🎛 Dynamic Filter Experience
 
 Custom Olympic event filtering experience using interactive navigation panels.
 
 <img src="Docs/Images/Overview Page - Filter Pannel Opened.png" width="100%"/>
 
+---
 
-### Athletes Dashboard
+## Athletes Dashboard
 
 Focused on athlete demographics and gender participation analysis.
 
@@ -295,8 +298,9 @@ Focused on athlete demographics and gender participation analysis.
 
 <img src="Docs/Images/Athelets Page.png" width="100%"/>
 
+---
 
-### 🌍 Country Performance Dashboard
+## 🌍 Country Performance Dashboard
 
 Interactive world-map intelligence dashboard showing global Olympic dominance.
 
@@ -308,8 +312,9 @@ Interactive world-map intelligence dashboard showing global Olympic dominance.
 
 <img src="Docs/Images/Country Page.png" width="100%"/>
 
+---
 
-### 📜 Historical Olympic Dashboard
+## 📜 Historical Olympic Dashboard
 
 Historical medal progression analysis from 1896–2024.
 
@@ -324,47 +329,93 @@ Historical medal progression analysis from 1896–2024.
 
 ## 🧠 Key Business Insights
 
+---
 
-### 🥇 United States Emerged as the Top Olympic Nation
+### 🥇 United States Dominated Olympic 2024
 
-The United States dominated Olympic 2024 with the highest medal tally and strong gold medal performance.
+The United States emerged as the most successful nation at Paris 2024, securing the highest overall medal tally with:
 
+- **126 Total Medals**
+- **40 Gold Medals**
+- **44 Silver Medals**
+- **42 Bronze Medals**
 
-### Male Athletes Slightly Outperformed Female Athletes
+The balanced medal distribution across all categories highlights the country’s depth, consistency, and dominance across multiple Olympic disciplines.
 
-Gender analysis revealed:
+---
+
+### 👨‍🦱👩‍🦰 Olympic Participation Achieved Near Gender Parity
+
+Paris 2024 showcased one of the most balanced gender participation ratios in Olympic history.
+
+| Gender | Athletes |
+|---|---:|
+| Male | **5,658** |
+| Female | **5,455** |
+
+The gap between male and female participation was only **203 athletes**, reflecting the continued global progress toward gender equality in competitive sports.
+
+Additionally:
 
 - Male athletes secured slightly more medals overall
-- Female participation remained highly competitive across disciplines
+- Female athletes demonstrated strong competitiveness across major disciplines including Athletics, Swimming, and Gymnastics
 
+---
 
-### Prime Athlete Age Group Was 26–30
+### 🧑 Peak Competitive Age Group Was 26–30
 
-Most Olympic athletes belonged to the **26–30** age bracket, making it the strongest participation category.
+Athlete demographic analysis revealed that the **26–30 age category** represented the highest concentration of Olympic participants.
 
+This indicates that:
 
-## 🏃 Athletics Generated the Highest Medal Activity
+- Peak athletic performance is typically achieved during late 20s
+- Experience and physical conditioning play a critical role in elite-level competition
+- Participation gradually declined beyond the age of 35
 
-Athletics contributed the largest medal distribution among Olympic disciplines.
+The analysis provides valuable insight into athlete performance lifecycle trends at the international level.
 
+---
 
-### 🌍 Olympic Participation Reached Massive Global Scale
+### 🏃 Athletics Emerged as the Most Competitive Olympic Discipline
 
-Paris 2024 included:
+Among all Olympic sports, **Athletics generated the highest medal activity**, outperforming other major disciplines such as Swimming, Wrestling, and Judo.
 
-- 206 countries
-- 11,113 athletes
-- 288 events
-- 32 sports
+This highlights:
 
-demonstrating the scale of global Olympic participation.
+- The global popularity of track & field events
+- High athlete participation volume
+- Greater medal diversity across countries
+
+Athletics continued to serve as the centerpiece of Olympic competition and audience engagement.
+
+---
+
+### 🌍 Paris 2024 Demonstrated Massive Global Olympic Scale
+
+The Paris 2024 Olympic Games represented one of the largest international sporting events ever conducted.
+
+| KPI | Value |
+|---|---:|
+| Participating Countries | **206** |
+| Athletes | **11,113** |
+| Sports | **32** |
+| Events | **288** |
+| Teams | **1,698** |
+
+The scale of participation demonstrates:
+
+- The growing globalization of competitive sports
+- Increasing international representation
+- The continued expansion of Olympic engagement worldwide
+
+Paris 2024 successfully reinforced the Olympics as a truly global sporting platform.
 
 ---
 
 ## 🧮 Advanced DAX Measures
 
 
-## 1️⃣ Gender-Based Gold Medal Analysis
+### 1️⃣ Gender-Based Gold Medal Analysis
 
 ```DAX
 GoldByFemaleAthletes =
@@ -385,7 +436,7 @@ CALCULATE(
 > Enables comparative medal intelligence between male and female athletes across countries and disciplines.
 
 
-## 2️⃣ Dynamic Olympic Highlights KPI
+### 2️⃣ Dynamic Olympic Highlights KPI
 
 ```DAX
 Highlights =
@@ -406,7 +457,7 @@ Highlights =
 > Generates storytelling-based KPI narratives dynamically inside the dashboard.
 
 
-## 3️⃣ Athlete Age Categorization
+### 3️⃣ Athlete Age Categorization
 
 ```DAX
 Age Category =
@@ -447,8 +498,6 @@ The project involved extensive preprocessing and transformation:
 - Developed custom map-based medal intelligence visuals
 
 ---
-
-## 📈 Business Impact
 
 ## Value Delivered Through This Analysis
 
