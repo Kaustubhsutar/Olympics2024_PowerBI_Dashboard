@@ -194,12 +194,12 @@ Interactive Multi-Page Power BI Dashboard
 # 📁 Repository Structure
 
 ```bash
-Olympic-2024-Analysis-PowerBI/
+Olympics2024_PowerBI_Dashboard/
 │
 ├── Dashboard/
 │   └── Olympic2024.pbix
 │
-├── datasets/
+├── Datasets/
 │   ├── athletes.csv
 │   ├── medals.csv
 │   ├── medalists.csv
@@ -209,19 +209,21 @@ Olympic-2024-Analysis-PowerBI/
 │   ├── countries_with_flags.csv
 │   └── icons.csv
 │
-├── maps/
-│   └── olympic_world_map.geojson
+├── Docs/
+│   ├── How to Run Python Scripts for Downloading and Loading Data in Power BI.md
+│   ├── olympic_world_map.geojson
+|   |
+│   └── Images/
+│       ├── Home Page.png
+│       ├── Overview Page.png
+│       ├── Overview Page - Filter Panel Opened.png
+│       ├── Athletes Page.png
+│       ├── Country Page.png
+│       └── Historical Page.png
 │
-├── scripts/
-│   └── olympic_data_scraper.py
-│
-├── images/
-│   ├── Home Page.png
-│   ├── Overview Page.png
-│   ├── Overview PAge - Filter Pannel Opened.png
-│   ├── Athelets Page.png
-│   ├── Country Page.png
-│   └── Historical Page.png
+├── Scripts/
+│   ├── olympic_data_script.py
+│   └── load_data_script.py
 │
 ├── README.md
 │
