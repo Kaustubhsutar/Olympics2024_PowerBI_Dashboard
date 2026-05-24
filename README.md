@@ -49,7 +49,7 @@ A premium multi-page Power BI dashboard project focused on athlete analytics, me
 
 ---
 
-# 📖 Executive Summary
+## 📖 Executive Summary
 
 This project delivers a complete analytics solution for the **Paris 2024 Olympic Games** using Power BI.
 
@@ -73,7 +73,7 @@ The project demonstrates practical business intelligence and dashboard engineeri
 
 ---
 
-# 🎯 Business Problem
+## 🎯 Business Problem
 
 Large-scale sporting events generate massive amounts of athlete, medal, and participation data.
 
@@ -90,7 +90,7 @@ This project addresses these challenges through an interactive end-to-end Power 
 
 ---
 
-# 🚀 Objectives
+## 🚀 Objectives
 
 The project was designed to answer the following analytical questions:
 
@@ -105,7 +105,7 @@ The project was designed to answer the following analytical questions:
 
 ---
 
-# 🗂 Dataset Overview
+## 🗂 Dataset Overview
 
 The dataset was sourced from **Kaggle** using Python-based automated dataset downloading and management workflows.
 
@@ -139,7 +139,7 @@ Additional supporting datasets and lookup tables were engineered to improve dash
 
 ---
 
-# 🛠️ Important Links & Tools
+## 🛠️ Important Links & Tools
 
 Everything used in this project is analytics-focused and beginner-friendly 🚀
 
@@ -153,7 +153,7 @@ Everything used in this project is analytics-focused and beginner-friendly 🚀
 
 ---
 
-# 🏗 Architecture / Workflow
+## 🏗 Architecture / Workflow
 
 ```text
 Official Olympic Results Website
@@ -191,7 +191,7 @@ Interactive Multi-Page Power BI Dashboard
 
 ---
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 ```bash
 Olympics2024_PowerBI_Dashboard/
@@ -210,9 +210,9 @@ Olympics2024_PowerBI_Dashboard/
 │   └── icons.csv
 │
 ├── Docs/
-│   ├── How to Run Python Scripts for Downloading and Loading Data in Power BI.md
+│   ├── Dataset Automation & Power BI Integration Guide.md
 │   ├── olympic_world_map.geojson
-|   |
+│   │
 │   └── Images/
 │       ├── Home Page.png
 │       ├── Overview Page.png
@@ -232,11 +232,11 @@ Olympics2024_PowerBI_Dashboard/
 
 ---
 
-# 📊 Dashboard Analysis Performed
+## 📊 Dashboard Analysis Performed
 
 The project includes advanced analytics across multiple dimensions.
 
-## Analytical Areas Covered
+### Analytical Areas Covered
 
 ✅ Athlete demographic analysis  
 ✅ Gender-based medal analysis  
@@ -252,19 +252,17 @@ The project includes advanced analytics across multiple dimensions.
 
 ---
 
-# 📈 Dashboard Pages
+## 📈 Dashboard Pages
 
----
 
-## 🏠 Home Page
+### Home Page
 
 Interactive Olympic-themed landing page with dashboard navigation.
 
-<img src="images/Home Page.png" width="100%"/>
+<img src="Docs/Images/Home Page.png" width="100%"/>
 
----
 
-## 📊 Overview Dashboard
+### 📊 Overview Dashboard
 
 Provides executive-level Olympic highlights and medal intelligence.
 
@@ -275,19 +273,17 @@ Provides executive-level Olympic highlights and medal intelligence.
 - Discipline Analysis
 - Global Olympic Participation
 
-<img src="images/Overview Page.png" width="100%"/>
+<img src="Docs/Images/Overview Page.png" width="100%"/>
 
----
 
-## 🎛 Dynamic Filter Experience
+### 🎛 Dynamic Filter Experience
 
 Custom Olympic event filtering experience using interactive navigation panels.
 
-<img src="images/Overview PAge - Filter Pannel Opened.png" width="100%"/>
+<img src="Docs/Images/Overview Page - Filter Pannel Opened.png" width="100%"/>
 
----
 
-## 🧑‍🤝‍🧑 Athletes Dashboard
+### Athletes Dashboard
 
 Focused on athlete demographics and gender participation analysis.
 
@@ -297,11 +293,10 @@ Focused on athlete demographics and gender participation analysis.
 - Athlete participation intelligence
 - Medal breakdown by country & gender
 
-<img src="images/Athelets Page.png" width="100%"/>
+<img src="Docs/Images/Athelets Page.png" width="100%"/>
 
----
 
-## 🌍 Country Performance Dashboard
+### 🌍 Country Performance Dashboard
 
 Interactive world-map intelligence dashboard showing global Olympic dominance.
 
@@ -311,11 +306,10 @@ Interactive world-map intelligence dashboard showing global Olympic dominance.
 - Geographic medal visualization
 - Country-level KPI summaries
 
-<img src="images/Country Page.png" width="100%"/>
+<img src="Docs/Images/Country Page.png" width="100%"/>
 
----
 
-## 📜 Historical Olympic Dashboard
+### 📜 Historical Olympic Dashboard
 
 Historical medal progression analysis from 1896–2024.
 
@@ -324,42 +318,37 @@ Historical medal progression analysis from 1896–2024.
 - Olympic growth visualization
 - Long-term Olympic performance tracking
 
-<img src="images/Historical Page.png" width="100%"/>
+<img src="Docs/Images/Historical Page.png" width="100%"/>
 
 ---
 
-# 🧠 Key Business Insights
+## 🧠 Key Business Insights
 
----
 
-## 🥇 United States Emerged as the Top Olympic Nation
+### 🥇 United States Emerged as the Top Olympic Nation
 
 The United States dominated Olympic 2024 with the highest medal tally and strong gold medal performance.
 
----
 
-## 👨 Male Athletes Slightly Outperformed Female Athletes
+### Male Athletes Slightly Outperformed Female Athletes
 
 Gender analysis revealed:
 
 - Male athletes secured slightly more medals overall
 - Female participation remained highly competitive across disciplines
 
----
 
-## 🧑 Prime Athlete Age Group Was 26–30
+### Prime Athlete Age Group Was 26–30
 
 Most Olympic athletes belonged to the **26–30** age bracket, making it the strongest participation category.
 
----
 
 ## 🏃 Athletics Generated the Highest Medal Activity
 
 Athletics contributed the largest medal distribution among Olympic disciplines.
 
----
 
-## 🌍 Olympic Participation Reached Massive Global Scale
+### 🌍 Olympic Participation Reached Massive Global Scale
 
 Paris 2024 included:
 
@@ -372,9 +361,8 @@ demonstrating the scale of global Olympic participation.
 
 ---
 
-# 🧮 Advanced DAX Measures
+## 🧮 Advanced DAX Measures
 
----
 
 ## 1️⃣ Gender-Based Gold Medal Analysis
 
@@ -396,7 +384,6 @@ CALCULATE(
 
 > Enables comparative medal intelligence between male and female athletes across countries and disciplines.
 
----
 
 ## 2️⃣ Dynamic Olympic Highlights KPI
 
@@ -418,7 +405,6 @@ Highlights =
 
 > Generates storytelling-based KPI narratives dynamically inside the dashboard.
 
----
 
 ## 3️⃣ Athlete Age Categorization
 
@@ -444,7 +430,7 @@ SWITCH(
 
 ---
 
-# 🧹 Data Cleaning & Transformation
+## 🧹 Data Cleaning & Transformation
 
 The project involved extensive preprocessing and transformation:
 
@@ -462,7 +448,7 @@ The project involved extensive preprocessing and transformation:
 
 ---
 
-# 📈 Business Impact
+## 📈 Business Impact
 
 ## Value Delivered Through This Analysis
 
@@ -484,9 +470,9 @@ Created executive-friendly visual narratives for fast insight consumption.
 
 ---
 
-# 📚 Key Learnings
+## 📚 Key Learnings
 
-## Technical Learnings
+### Technical Learnings
 
 - Advanced Power BI dashboard engineering
 - DAX KPI development
@@ -496,7 +482,7 @@ Created executive-friendly visual narratives for fast insight consumption.
 - Dashboard UI/UX optimization
 - GEOJSON map engineering
 
-## Business Learnings
+### Business Learnings
 
 - Olympic performance varies significantly by demographic distribution
 - Medal concentration remains highly country-dependent
@@ -504,7 +490,7 @@ Created executive-friendly visual narratives for fast insight consumption.
 
 ---
 
-# 🚀 Future Improvements
+## 🚀 Future Improvements
 
 Planned enhancements for the project:
 
