@@ -25,39 +25,22 @@ If you do not already have a Kaggle account:
 2. Create an account
 3. Log in to your Kaggle profile
 
----
-
 ## 📌 Generate Kaggle API Token
 
 1. Open your Kaggle account settings
 2. Navigate to the **API** section
-3. Click:
+3. Click: `Create New API Token`
 
-```text
-Create New API Token
-```
-
-This downloads a file named:
-
-```text
-kaggle.json
-```
+This downloads a file named: `kaggle.json`
 
 which contains your Kaggle authentication credentials.
 
----
 
 ## 📌 Save the Kaggle API Token
 
 Move the downloaded `kaggle.json` file into a secure local directory.
 
-Example:
-
-```text
-C:/Users/YourUsername/.kaggle
-```
-
----
+Example: `C:/Users/YourUsername/.kaggle`
 
 ## 📌 Install Required Python Libraries
 
@@ -79,25 +62,15 @@ The project uses a Python automation script to:
 - Extract CSV files
 - Prepare datasets for Power BI
 
----
-
 ## 📂 Script Location
 
-```
-[](Scripts/olympic_data_script.py)
-```
-
----
+[Scripts/olympic_data_script.py](Scripts/olympic_data_script.py)
 
 ## 📌 Workflow Performed by the Script
 
 ### 🔐 Kaggle Authentication
 
-The script authenticates Kaggle API access using:
-
-```text
-KAGGLE_CONFIG_DIR
-```
+The script authenticates Kaggle API access using: `KAGGLE_CONFIG_DIR`
 
 which points to the folder containing the `kaggle.json` file.
 
@@ -105,11 +78,7 @@ which points to the folder containing the `kaggle.json` file.
 
 ### 📥 Dataset Download
 
-The following Kaggle dataset is downloaded automatically:
-
-```text
-piterfm/paris-2024-olympic-summer-games
-```
+The following Kaggle dataset is downloaded automatically: `piterfm/paris-2024-olympic-summer-games`
 
 The script downloads and extracts all dataset files into the configured source directory.
 
@@ -144,15 +113,11 @@ and loads them into Pandas DataFrames for analytics workflows.
 
 After downloading the dataset, the data can be imported directly into Power BI using Python integration.
 
----
-
 ## 📂 Script Location
 
 
-[Location](Scripts/load_data_script.py)
+[Scripts/load_data_script.py](Scripts/load_data_script.py)
 
-
----
 
 ## 🔌 Connecting Power BI with Python
 
@@ -165,31 +130,19 @@ Launch Power BI Desktop on your system.
 
 ### 2️⃣ Open Get Data
 
-Navigate to:
-
-```text
-Home → Get Data
-```
+Navigate to: `Home → Get Data`
 
 
 ### 3️⃣ Select Python Script
 
-Choose:
-
-```text
-Python Script
-```
+Choose: `Python Script`
 
 from the available data source options.
 
 
 ### 4️⃣ Run the Python Loading Script
 
-Copy the contents of:
-
-```
-Scripts/load_data_script.py
-```
+Copy the contents of: `Scripts/load_data_script.py`
 
 and paste it into the Power BI Python editor window.
 
