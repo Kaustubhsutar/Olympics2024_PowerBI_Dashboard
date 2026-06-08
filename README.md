@@ -475,7 +475,7 @@ SWITCH(
 
 ---
 
-## 🧹 Data Cleaning & Transformation
+##  Data Cleaning & Transformation
 
 The project involved extensive preprocessing and transformation:
 
