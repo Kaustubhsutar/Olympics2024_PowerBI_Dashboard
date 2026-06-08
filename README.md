@@ -327,11 +327,9 @@ Historical medal progression analysis from 1896–2024.
 
 ---
 
-## 🧠 Key Business Insights
+## Key Business Insights
 
----
-
-### 🥇 United States Dominated Olympic 2024
+## 🥇 United States Dominated Olympic 2024
 
 The United States emerged as the most successful nation at Paris 2024, securing the highest overall medal tally with:
 
@@ -342,9 +340,8 @@ The United States emerged as the most successful nation at Paris 2024, securing 
 
 The balanced medal distribution across all categories highlights the country’s depth, consistency, and dominance across multiple Olympic disciplines.
 
----
 
-### 👨‍🦱👩‍🦰 Olympic Participation Achieved Near Gender Parity
+## Olympic Participation Achieved Near Gender Parity
 
 Paris 2024 showcased one of the most balanced gender participation ratios in Olympic history.
 
@@ -360,9 +357,8 @@ Additionally:
 - Male athletes secured slightly more medals overall
 - Female athletes demonstrated strong competitiveness across major disciplines including Athletics, Swimming, and Gymnastics
 
----
 
-### 🧑 Peak Competitive Age Group Was 26–30
+## Peak Competitive Age Group Was 26–30
 
 Athlete demographic analysis revealed that the **26–30 age category** represented the highest concentration of Olympic participants.
 
@@ -374,9 +370,8 @@ This indicates that:
 
 The analysis provides valuable insight into athlete performance lifecycle trends at the international level.
 
----
 
-### 🏃 Athletics Emerged as the Most Competitive Olympic Discipline
+## Athletics Emerged as the Most Competitive Olympic Discipline
 
 Among all Olympic sports, **Athletics generated the highest medal activity**, outperforming other major disciplines such as Swimming, Wrestling, and Judo.
 
@@ -388,9 +383,8 @@ This highlights:
 
 Athletics continued to serve as the centerpiece of Olympic competition and audience engagement.
 
----
 
-### 🌍 Paris 2024 Demonstrated Massive Global Olympic Scale
+## 🌍 Paris 2024 Demonstrated Massive Global Olympic Scale
 
 The Paris 2024 Olympic Games represented one of the largest international sporting events ever conducted.
 
